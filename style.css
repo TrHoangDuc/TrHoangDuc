@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Domine", serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  font-size: 35px;
+  padding: 20px 0;
+  background-color: white;
+  align-items: center;
+}
+
+.body {
+  background-image: url(https://images.unsplash.com/photo-1621626876032-299fb37930c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80);
+  width: 100wh;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 15%;
+  margin-left: 250px;
+  transition: all 1s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.link {
+  display: inline-block;
+  width: 55%;
+  margin-left: 0px;
+}
+
+.sign {
+  display: inline-block;
+  width: 30%;
+  margin-left: 0px;
+}
+
+.button {
+  background-color: rgb(150, 216, 44);
+  font-size: 25px;
+  padding: 15px 35px;
+  border: 0;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+span {
+  margin: 0 20px;
+}
+
+.content {
+  width: 650px;
+  position: relative;
+  z-index: 1;
+  margin-left: 200px;
+  transform: translateY(-150px);
+}
+
+.content h1 {
+  font-size: 100px;
+  text-align: left;
+  /* position: absolute; */
+  margin-left: 0;
+}
+
+.content p {
+  position: absolute;
+  font-size: 30px;
+  text-align: left;
+  margin: 50px 0px;
+}
+
+.body .button {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 0px;
+}
+
+#a {
+  transition: all 0.7s;
+}
+
+#b {
+  transition: all 0.7s;
+}
+
+#c {
+  transition: all 0.7s;
+}
+
+#d {
+  transition: all 0.7s;
+}
+
+#a:hover {
+  font-size: 40px;
+  color: rgb(150, 216, 44);
+}
+
+#b:hover {
+  font-size: 40px;
+  color: rgb(150, 216, 44);
+}
+
+#c:hover {
+  font-size: 40px;
+  color: rgb(150, 216, 44);
+}
+
+#d:hover {
+  font-size: 40px;
+  color: rgb(150, 216, 44);
+}
